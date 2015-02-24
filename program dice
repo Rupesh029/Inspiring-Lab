@@ -1,0 +1,27 @@
+/*program for rolling dice game*/
+#include<iostream.h>
+#include<stdlib.h>
+
+void main()
+{
+int dice1,dice2,total;
+ int i;
+
+if(i!=0)
+{
+dice1=rand()%6+1;
+dice2=rand()%6+1;
+
+total=dice1+dice2;
+
+if(total==11){
+cout<<"you won\n";
+}
+else{
+cout<<"you lose\n";
+
+cout<<"press 1 to continue and 0 to exit\n";
+cin>>i;
+}
+}
+}
